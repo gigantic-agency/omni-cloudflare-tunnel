@@ -21,7 +21,7 @@ services:
         max-file: "10"                                # Maximum number of log files to retain (10)
 
     # Network mode configuration
-    network_mode: "host"                              # Use the host network (no isolation between host and container)
+    # network_mode: "host"                              # Use the host network (no isolation between host and container)
 
     # Command to run Cloudflare Tunnel
     command: tunnel run                               # Command to start the Cloudflare tunnel
